@@ -24,5 +24,4 @@ Raw txt files are available on the Federal Elections Committee Website. These tx
 
 ## Pipeline
 Below is my proposed pipeline
-
 ![pipeline](https://user-images.githubusercontent.com/48104421/85505590-a7af8b00-b5bc-11ea-9776-1ea19f9f3080.png)
