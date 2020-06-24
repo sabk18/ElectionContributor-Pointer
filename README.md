@@ -30,4 +30,6 @@ Below is my proposed pipeline
 
 ## Demo
 
+![Demo](Frontend/Demo_recording.gif)
+
 ## Instructions
