@@ -20,7 +20,7 @@ Election Committees receive contributions all year round. There are four main so
 - Docker
 
 ## Data Description
-Raw txt files are available on the Federal Elections Committee Website. These txt files are extracted and dumped into an s3 bucket from where they are further processed. These txt files are tab separated files where each row contains information about a contribtion made towards a committee.
+Raw txt files are available on the [Federal Elections Committee](https://www.fec.gov/data/browse-data/?tab=bulk-data) Website. These txt files are extracted and dumped into an s3 bucket from where they are further processed. These txt files are tab separated files where each row contains information about a contribtion made towards a committee.
 
 ## Pipeline
 Below is my proposed pipeline
