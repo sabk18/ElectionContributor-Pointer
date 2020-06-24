@@ -22,4 +22,7 @@ Election Committees receive contributions all year round. There are four main so
 ## Data Description
 Raw txt files are available on the Federal Elections Committee Website. These txt files are extracted and dumped into an s3 bucket from where they are further processed. These txt files are tab separated files where each row contains information about a contribtion made towards a committee.
 
+## Pipeline
+Below is my proposed pipeline
 
+![pipeline](https://user-images.githubusercontent.com/48104421/85505590-a7af8b00-b5bc-11ea-9776-1ea19f9f3080.png)
