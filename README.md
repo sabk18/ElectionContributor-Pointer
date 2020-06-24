@@ -28,3 +28,6 @@ Below is my proposed pipeline
 ## Slides
 [link](https://docs.google.com/presentation/d/11tgObQu23-wopmqbK_SRQUFK9fxzm5Cb/edit#slide=id.p8)
 
+## Demo
+
+## Instructions
