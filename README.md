@@ -3,5 +3,18 @@
 ## Tracks and Analyzes Election Committee Contributions
 
 ## Problem Statement
-Election Committees receive contributions from Indivisuals all year round. My project is aimed at ingesting raw datasets of the Indivisual contirbutions from the FEC website and processing this dataset to allow data analysts and data scientists to draw useful queries. The analysis I would like to see with this data is when and where (by zipcode, state) does the rate of existing contributors change vs rate of new contributors. If the contributions are coming from high income neighborhoods vs low income neighorhoods. This analysis and processed data can help election committees strategize locally and more effectively.
+Election Committees receive contributions all year round. There are four main sources of funding: Small Individual Contributors, Large Individual Contributors, Political Committees and Candidates own money. My project will help Campaign Marketing teams understand the distribution of these contributions with respect to location and time helping them launch more effecient fundraisers and marketing strategies.  
 
+## Technologies Used
+- AWS
+  - EC2
+  - S3 Bucket
+  - Amazon RDS
+  - Amazon QuickSight
+- Python 3.6
+  - Spyder / Jupyter Notebook
+  - Pandas
+  - Numpy
+- MySQL
+- Airflow
+- Docker
