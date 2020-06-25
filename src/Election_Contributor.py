@@ -55,7 +55,7 @@ def main():
     files_list_2 =s3SubFolder(Bucket_2)
     #files_list = fetch_s3files(Bucket)
     info_list =[]
-    #files_list_test=files_list_2
+
     for file_ in files_list_2:
         print (file_)
         #df= pd.read_csv('s3://%s/%s'%(Bucket , file_),header=None, sep='\t', error_bad_lines=False, encoding='latin-1')
@@ -76,7 +76,7 @@ def main():
     #file_size = filesize(file_)
         info_list.append([file_, pandas_t, sql_t])
         Infofile(info_list)
-    
+        
     
     
     
