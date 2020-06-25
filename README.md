@@ -37,7 +37,7 @@ Below is my proposed pipeline
 First add dependencies from the requirements.txt file:
 
 ```python
-pip install r requirements.txt
+pip install -r requirements.txt
 ```
 
 This will download the required modules.
