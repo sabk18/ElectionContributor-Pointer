@@ -30,6 +30,6 @@ Below is my proposed pipeline
 
 ## Demo
 
-![Demo](Frontend/Demo_recording.gif)
+![Demo](Frontend/Demo_Recording.gif)
 
 ## Instructions
