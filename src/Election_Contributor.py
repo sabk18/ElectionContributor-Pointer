@@ -38,9 +38,11 @@ import sqlalchemy.types as sqltypes
 from sqlalchemy import create_engine
 
 ##########################
-# Load env file
+# Load env file by placing your env file in a folder called HOME:
 from dotenv import load_dotenv
-dotenv_path = os.environ['HOME'] + '/staging.env'
+os.chdir('/home/ubuntu/HOME')
+dotenv_path = '/home/ubuntu/HOME' + '/staging.env'
+#dotenv_path = os.environ['HOME'] + '/staging.env'
 load_dotenv(dotenv_path)
 locals().update(os.environ)
 ##########################
