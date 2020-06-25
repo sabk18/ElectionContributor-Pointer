@@ -48,7 +48,7 @@ When running on an EC2 instance, create a directory HOME that will contain your 
 mkdir HOME
 ```
 
-the Election_Committee.py script call on other python modules. This is the main script and can be executed by running:
+the Election_Contributor.py script call on other python modules. This is the main script and can be executed by running the run.sh as follows:
 ```python
 'bash run.sh' or './run.sh'
 ```
