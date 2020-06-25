@@ -33,3 +33,22 @@ Below is my proposed pipeline
 ![Demo](Frontend/Demo_Recording.gif)
 
 ## Instructions
+
+First add dependencies from the requirements.txt file:
+
+```python
+pip install r requirements.txt
+```
+
+This will download the required modules.
+
+When running on an EC2 instance, create a directory HOME that will contain your staging.env file[ The file containing your credentials and logging info]
+
+```python
+mkdir HOME
+```
+
+the Election_Committee.py script call on other python modules. This is the main script and can be executed by running:
+```python
+'bash run.sh' or './run.sh'
+```
