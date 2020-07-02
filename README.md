@@ -52,3 +52,8 @@ the Election_Contributor.py script call on other python modules. This is the mai
 ```python
 'bash run.sh' or './run.sh'
 ```
+
+## Automation of Ingestion
+
+The following illustrates the workflow that automates the ingesting of files from web to s3 [Also DAG1]
+[link](Images/Screen Shot 2020-07-02 at 5.33.17 PM.png)
