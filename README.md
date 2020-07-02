@@ -56,4 +56,4 @@ the Election_Contributor.py script call on other python modules. This is the mai
 ## Automation of Ingestion
 
 The following illustrates the workflow that automates the ingesting of files from web to s3 [Also DAG1]
-[link](Images/Screen Shot 2020-07-02 at 5.33.17 PM.png)
+![Workflow](https://user-images.githubusercontent.com/48104421/86411832-b583a100-bc8b-11ea-9f95-c105b45ea574.png)
