@@ -46,14 +46,17 @@ def fetch_s3files(bucket):
 #Bucket_2 ='indivi-files'
 
 
-def s3SubFolder(bucket):
+def s3SubFolder(bucket,s3folder):
     s3 = boto3.client('s3')
     indivfile_list =[]
     for obj in s3.list_objects_v2(Bucket= bucket)['Contents']:
-        FileName = obj['Key'].split('/')
-        FileName = FileName[1]
-        indivfile_list.append(FileName)
-    unwanted_list =['','itcont_2014_invalid_dates.txt','itcont_2012_invalid_dates.txt','itcont_2016_invalid_dates.txt','itcont_2018_invalid_dates.txt','itcont_2020_invalid_dates.txt']
+        if s3folder in obj['Key']:
+            FileName = obj['Key'].split('/')
+            FileName = FileName[1]
+            indivfile_list.append(FileName)
+        else:
+            pass
+    unwanted_list =['','itcont_2014_invalid_dates.txt','itcont_2012_invalid_dates.txt','itcont_2016_invalid_dates.txt','itcont_2018_invalid_dates.txt','itcont_2020_invalid_dates_2020-07-02.txt']
     new_list = [x for x in indivfile_list if x not in unwanted_list]
 
 

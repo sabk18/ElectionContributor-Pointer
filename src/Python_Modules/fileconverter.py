@@ -44,7 +44,7 @@ def FileConvert(df,file_name):
     df.to_csv('{}/{}_'.format(Folder,file_name) + today_str +'.csv', index=False)
 
 
-def Infofile(info_list):
-    with open("Analyzer_file.csv", mode="w") as csv_file:
+def Infofile(path, info_list):
+    with open(path +"/Analyzer_file.csv", mode="w") as csv_file:
         csvwriter = csv.writer(csv_file)
         csvwriter.writerow([info_list])

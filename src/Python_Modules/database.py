@@ -36,7 +36,7 @@ locals().update(os.environ)
 
 
 
-def ToSQL(df):
+def ToSQL(df, engine):
     
     #save the dataframe to MySQL:
     df.to_sql(name ='Contribution_dataset_staging', con=engine, if_exists ='append', index=False, chunksize=50000,
