@@ -4,7 +4,7 @@ boto3==1.14.8
 botocore==1.17.8
 hurry.filesize==0.9
 numpy==1.16.6
-pip==9.0.1
+pip==19.2
 pyarrow==0.16.0
 PyMySQL==0.9.3
 python-dateutil==2.8.1
